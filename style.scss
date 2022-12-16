@@ -14,6 +14,77 @@ body {
     background: #000;
 }
 
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.test{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: hotpink;
+}
+
+#test1{
+    top: 85%;
+    left: 10%;
+}
+
+#test2{
+    top: 86%;
+    left: 17%;
+}
+
+#test3{
+    top: 85%;
+    left: 24%; 
+}
+
+#test4{
+    top: 50%;
+    left: 44%; 
+}
+
+#test5{
+    top: 50%;
+    left: 54%;
+}
+
+#test6{
+    top: 50%;
+    left: 64%;
+}
+
+#buttonDiv{
+    position: absolute;
+    bottom: 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button{
+    box-shadow: 0 0 30px #9ecaed;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    width: fit-content;
+    //height: 60%;
+    border: 0.3rem white solid;
+}
+
 .lightrope {
     text-align: center;
     white-space: nowrap;
