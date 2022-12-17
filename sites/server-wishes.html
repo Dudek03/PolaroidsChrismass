@@ -5,14 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/server-wishes.css">
+    <link rel="stylesheet" href="../style/general.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div id="snow"></div>
     <div class="button goBack">⬅Go Back</div>
-    <a href="./test.html">serwer</a>
+    <div class="wrap" id="wrap">
+        <div class="card card--inner">
+            <h2>And A Happy New Year!</h2>
+            <img src="https://static.pexels.com/photos/17795/christmas-xmas-christmas-tree-decoration.jpg">
+        </div>
+        <div class="card card--front back" onclick="openCard();">
+            <p>siema</p>
+        </div>
+        <div class="card card--front" onclick="openCard();">
+            <h2>Merry Christmas<br>Polaroids</h2>
+        </div>
+    </div>
+
+    <button type="button" id="button">Open Card</button>
     <script src="../JS/goBackButton.js"></script>
+    <script src="../JS/serverWishes.js"></script>
 </body>
 
 </html>

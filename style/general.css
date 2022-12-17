@@ -1,0 +1,18 @@
+.button {
+    box-shadow: 0 0 30px #9ecaed;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    width: fit-content;
+    border: 0.3rem white solid;
+}
+
+.webIcon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
