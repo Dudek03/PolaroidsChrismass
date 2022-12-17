@@ -11,6 +11,6 @@ let serverButton = document.getElementById("server")
 let peopleButton = document.getElementById("people")
 
 
-serverButton.addEventListener("click", () => {location.href="./server-wishes.html"})
-peopleButton.addEventListener("click", () => {location.href="./wishes-for-people.html"})
+serverButton.addEventListener("click", () => { location.href = "./sites/server-wishes.html" })
+peopleButton.addEventListener("click", () => { location.href = "./sites/wishes-for-people.html" })
 main()
