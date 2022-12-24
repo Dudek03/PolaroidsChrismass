@@ -277,7 +277,7 @@ body {
 #gift {
     height: 250px;
     aspect-ratio: 79/100;
-    left: 85%;
+    left: 80%;
     top: 55%;
     transform: rotate(-30deg);
 }
