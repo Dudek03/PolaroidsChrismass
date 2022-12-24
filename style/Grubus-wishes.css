@@ -81,10 +81,10 @@ body {
 }
 
 .card p {
-    /* font-weight: 300; */
+    font-weight: 300;
     text-align: justify;
     color: #261844;
-    line-height: 1.2;
+    line-height: 1.3;
     letter-spacing: 0.3px;
     font-size: small;
 }
@@ -267,18 +267,17 @@ body {
     margin-left: 6.25px;
 }
 
-#snowman {
-    height: 200px;
-    aspect-ratio: 1/1;
-    left: 6%;
-    top: 30%;
-    transform: rotate(15deg);
+#santa_ground {
+    height: 150px;
+    aspect-ratio: 213/100;
+    left: 16%;
+    top: 35%;
 }
 
-#gift {
-    height: 200px;
-    aspect-ratio: 1/1;
-    left: 75%;
-    top: 65%;
-    transform: rotate(-30deg);
+#santa_drink {
+    height: 300px;
+    aspect-ratio: 47/100;
+    left: 85%;
+    top: 55%;
+    transform: rotate(-10deg);
 }

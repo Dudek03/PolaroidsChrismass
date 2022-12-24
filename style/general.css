@@ -10,6 +10,13 @@
     color: white;
     width: fit-content;
     border: 0.3rem white solid;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 15px #33d324, -5px -5px 15px #b60505;
+    border-color: #ffffffbd;
 }
 
 .webIcon {

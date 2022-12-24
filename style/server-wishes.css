@@ -109,6 +109,8 @@ h2 {
 }
 
 button {
+  color: #fff;
+  font-weight: bold;
   -webkit-appearance: none;
   background: #E53935;
   border: 5px solid #9f1815;

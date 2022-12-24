@@ -81,12 +81,11 @@ body {
 }
 
 .card p {
-    /* font-weight: 300; */
+    font-weight: 300;
     text-align: justify;
     color: #261844;
-    line-height: 1.2;
+    line-height: 1.8;
     letter-spacing: 0.3px;
-    font-size: small;
 }
 
 .card:hover img {
@@ -276,9 +275,9 @@ body {
 }
 
 #gift {
-    height: 200px;
-    aspect-ratio: 1/1;
-    left: 75%;
-    top: 65%;
+    height: 250px;
+    aspect-ratio: 79/100;
+    left: 85%;
+    top: 55%;
     transform: rotate(-30deg);
 }

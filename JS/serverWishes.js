@@ -4,10 +4,10 @@ button.addEventListener("click", () => { openCard() })
 const openCard = () => {
     let cards = document.querySelectorAll('.card');
 
-    if (button.innerHTML == 'Open Card') {
-        button.innerHTML = 'Close Card';
+    if (button.innerHTML == 'Otwórz') {
+        button.innerHTML = 'Zamknij';
     } else {
-        button.innerHTML = 'Open Card';
+        button.innerHTML = 'Otwórz';
     }
 
 

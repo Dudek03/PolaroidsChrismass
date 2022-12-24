@@ -84,9 +84,8 @@ body {
     /* font-weight: 300; */
     text-align: justify;
     color: #261844;
-    line-height: 1.2;
+    line-height: 1.8;
     letter-spacing: 0.3px;
-    font-size: small;
 }
 
 .card:hover img {
@@ -267,17 +266,17 @@ body {
     margin-left: 6.25px;
 }
 
-#snowman {
-    height: 200px;
-    aspect-ratio: 1/1;
-    left: 6%;
-    top: 30%;
+#santa {
+    height: 250px;
+    aspect-ratio: 64/100;
+    left: 8%;
+    top: 25%;
     transform: rotate(15deg);
 }
 
 #gift {
-    height: 200px;
-    aspect-ratio: 1/1;
+    height: 250px;
+    aspect-ratio: 79/100;
     left: 75%;
     top: 65%;
     transform: rotate(-30deg);

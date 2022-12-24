@@ -41,8 +41,8 @@ body {
 
 .card {
     position: absolute;
-    height: 300px;
-    width: 550px;
+    height: 350px;
+    width: 600px;
     background-color: rgba(255, 255, 255, 0.15);
     border: 2px solid rgba(255, 255, 255, 0.2);
     transform: translate(-50%, -50%);
@@ -58,8 +58,8 @@ body {
     position: absolute;
     width: 300px;
     filter: drop-shadow(0 0 20px rgba(26, 0, 68, 0.34));
-    bottom: 0;
-    left: 120px;
+    bottom: 25px;
+    left: 150px;
     transition: 0.5s;
 }
 
@@ -81,18 +81,17 @@ body {
 }
 
 .card p {
-    /* font-weight: 300; */
+    font-weight: 300;
     text-align: justify;
     color: #261844;
-    line-height: 1.2;
+    line-height: 1.8;
     letter-spacing: 0.3px;
-    font-size: small;
 }
 
 .card:hover img {
     width: 250px;
     left: 15px;
-    bottom: 20px;
+    bottom: 50px;
 }
 
 .card:hover .text-container {
@@ -268,17 +267,16 @@ body {
 }
 
 #snowman {
-    height: 200px;
-    aspect-ratio: 1/1;
+    height: 300px;
+    aspect-ratio: 60/100;
     left: 6%;
-    top: 30%;
+    top: 25%;
     transform: rotate(15deg);
 }
 
-#gift {
-    height: 200px;
-    aspect-ratio: 1/1;
-    left: 75%;
-    top: 65%;
-    transform: rotate(-30deg);
+#candles {
+    height: 250px;
+    aspect-ratio: 79/100;
+    left: 85%;
+    top: 75%;
 }
