@@ -9,7 +9,16 @@ body {
   background: #000;
 }
 
-main {
+#index-main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/bastion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#people-main {
   width: 100vw;
   height: 100vh;
   background-image: url("../assets/background.gif");
